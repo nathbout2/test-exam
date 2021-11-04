@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Inter;
+    src: url(https://fonts.google.com/specimen/Inter?query=inter);
+}
+*{
+    font-family: Inter;
+}
+nav{
+    justify-content: space-around;
+    display: flex;
+}
+.title{
+    color: #35b8be;
+}
+span{
+    color: #35b8be;
+}
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.description_head{
+
+}
+button{
+    color: #ffffff;
+    background-color: #35b8be;
+    border: none;
+    border-radius: 8px;
+    background-image:url(images/button_wave.svg);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    height: 60px;
+    width: 200px;
+}
+.mid{
+    background-color: #f5fbfc;
+}
+p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+}
+.navbar-brand{
+    justify-content: space-around;
+    display: contents;
+}
+.head{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.mid{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.end{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width: 20rem;
+    margin-top: 3rem;
+}
+.footer{
+    background-color: #f5fbfc;
+}
+h4{
+    color: #35b8be;
+}
+.text_footer_two{
+    color:#08090a;
+}
+@media (min-width: 1000px) { 
+
+    .head{
+
+    }
+ }
